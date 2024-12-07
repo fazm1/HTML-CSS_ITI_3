@@ -1,0 +1,72 @@
+.navbar ul li a {
+    text-decoration: none;
+    color: white;   
+}
+.navbar ul{
+    list-style-type: none;
+    float: right;
+    padding-top: 10px;
+    margin-right: 50px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+    padding-right: 20px;
+    
+}
+.navbar ul a:hover{
+    color:yellow;
+}
+.navbar{
+    background-color: #212529;
+    height: 72px;
+    width:100%;
+}
+
+.logo{
+    height: 30px;
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+}
+.title h1{
+    margin-top: 60px;;
+    text-align:center;
+    font-size: 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.title p{
+    margin:auto;
+    font-weight: 400;
+    text-align: center;
+    color: grey;
+    font-style:italic;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.social a img{
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+}
+.card img{
+    height: 224px;
+    width: 224px;
+}
+.card {
+    margin-top: 50px;
+    text-align:center;
+    display: inline-block;
+    width: 33%;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.card p{
+    color: grey;
+    margin-top: -10px;
+    font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.card .profile{
+    border: 10px solid #ced4da;
+    border-radius: 50%;
+}
